@@ -1,0 +1,512 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00     9341     0.00     0.00  std::basic_ostream<char, std::char_traits<char> >& std::__detail::operator<< <char, std::char_traits<char>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::basic_ostream<char, std::char_traits<char> >&, std::__detail::_Quoted_string<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char> const&)
+  0.00      0.00     0.00     7295     0.00     0.00  _fini
+  0.00      0.00     0.00     3113     0.00     0.00  std::filesystem::__cxx11::path::path<char [35], std::filesystem::__cxx11::path>(char const (&) [35], std::filesystem::__cxx11::path::format)
+  0.00      0.00     0.00     3113     0.00     0.00  std::filesystem::__cxx11::operator/(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&)
+  0.00      0.00     0.00     3113     0.00     0.00  std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream<std::filesystem::__cxx11::path, std::filesystem::__cxx11::path>(std::filesystem::__cxx11::path const&, std::_Ios_Openmode)
+  0.00      0.00     0.00     3111     0.00     0.00  my_copy_file(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&)
+  0.00      0.00     0.00     2103     0.00     0.00  std::filesystem::__cxx11::operator!=(std::filesystem::__cxx11::directory_iterator const&, std::filesystem::__cxx11::directory_iterator const&)
+  0.00      0.00     0.00     2074     0.00     0.00  std::filesystem::file_status::type() const
+  0.00      0.00     0.00     1067     0.00     0.00  std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_add_ref_copy()
+  0.00      0.00     0.00     1063     0.00     0.00  __gnu_cxx::char_traits<char>::eq(char const&, char const&)
+  0.00      0.00     0.00     1063     0.00     0.00  std::filesystem::__cxx11::directory_iterator::directory_iterator(std::filesystem::__cxx11::directory_iterator&&)
+  0.00      0.00     0.00     1063     0.00     0.00  std::filesystem::__cxx11::directory_iterator::directory_iterator(std::filesystem::__cxx11::directory_iterator const&)
+  0.00      0.00     0.00     1040     0.00     0.00  __gnu_cxx::char_traits<char>::length(char const*)
+  0.00      0.00     0.00     1039     0.00     0.00  std::unique_ptr<std::filesystem::__cxx11::path::_List::_Impl, std::filesystem::__cxx11::path::_List::_Impl_deleter>::~unique_ptr()
+  0.00      0.00     0.00     1037     0.00     0.00  std::filesystem::__cxx11::directory_entry::operator std::filesystem::__cxx11::path const&() const
+  0.00      0.00     0.00     1037     0.00     0.00  std::filesystem::__cxx11::path::c_str() const
+  0.00      0.00     0.00     1037     0.00     0.00  std::filesystem::__cxx11::directory_iterator::directory_iterator(std::filesystem::__cxx11::path const&)
+  0.00      0.00     0.00     1037     0.00     0.00  std::filesystem::__cxx11::path::~path()
+  0.00      0.00     0.00     1037     0.00     0.00  std::lock_guard<std::mutex>::lock_guard(std::mutex&)
+  0.00      0.00     0.00     1037     0.00     0.00  std::__atomic_base<int>::operator++(int)
+  0.00      0.00     0.00      819     0.00     0.00  std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&)
+  0.00      0.00     0.00      818     0.00     0.00  std::filesystem::is_directory(std::filesystem::file_status)
+  0.00      0.00     0.00      818     0.00     0.00  std::filesystem::exists(std::filesystem::file_status)
+  0.00      0.00     0.00      253     0.00     0.00  std::basic_ostream<char, std::char_traits<char> >& std::filesystem::__cxx11::operator<< <char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::filesystem::__cxx11::path const&)
+  0.00      0.00     0.00      248     0.00     0.00  std::filesystem::__cxx11::end(std::filesystem::__cxx11::directory_iterator)
+  0.00      0.00     0.00      247     0.00     0.00  std::filesystem::__cxx11::operator==(std::filesystem::__cxx11::recursive_directory_iterator const&, std::filesystem::__cxx11::recursive_directory_iterator const&)
+  0.00      0.00     0.00       10     0.00     0.00  std::filesystem::__cxx11::begin(std::filesystem::__cxx11::directory_iterator)
+  0.00      0.00     0.00        9     0.00     0.00  std::filesystem::__cxx11::path::path<char [40], std::filesystem::__cxx11::path>(char const (&) [40], std::filesystem::__cxx11::path::format)
+  0.00      0.00     0.00        8     0.00     0.00  std::filesystem::__cxx11::path::path(std::filesystem::__cxx11::path const&)
+  0.00      0.00     0.00        4     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::filesystem::__cxx11::path::string<char, std::char_traits<char>, std::allocator<char> >(std::allocator<char> const&) const
+  0.00      0.00     0.00        4     0.00     0.00  auto std::filesystem::__cxx11::__detail::__effective_range<char [35]>(char const (&) [35])
+  0.00      0.00     0.00        4     0.00     0.00  std::chrono::duration<double, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00      0.00     0.00        4     0.00     0.00  std::filesystem::__cxx11::path::_List::_Impl*& std::__get_helper<0ul, std::filesystem::__cxx11::path::_List::_Impl*, std::filesystem::__cxx11::path::_List::_Impl_deleter>(std::_Tuple_impl<0ul, std::filesystem::__cxx11::path::_List::_Impl*, std::filesystem::__cxx11::path::_List::_Impl_deleter>&)
+  0.00      0.00     0.00        2     0.00     0.00  std::_Head_base<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter, true>::_M_head(std::_Head_base<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter, true>&)
+  0.00      0.00     0.00        2     0.00     0.00  auto std::filesystem::__cxx11::__detail::__effective_range<char [40]>(char const (&) [40])
+  0.00      0.00     0.00        2     0.00     0.00  std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count()
+  0.00      0.00     0.00        2     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&)
+  0.00      0.00     0.00        2     0.00     0.00  std::filesystem::__cxx11::path::_List::_Impl_deleter& std::__get_helper<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter>(std::_Tuple_impl<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter>&)
+  0.00      0.00     0.00        2     0.00     0.00  auto std::quoted<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char, char)
+  0.00      0.00     0.00        1     0.00     0.00  copy_files(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&)
+  0.00      0.00     0.00        1     0.00     0.00  copy_directory_for(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&)
+  0.00      0.00     0.00        1     0.00     0.00  copy_directory_recursive(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&)
+  0.00      0.00     0.00        1     0.00     0.00  __gthread_mutex_lock(pthread_mutex_t*)
+  0.00      0.00     0.00        1     0.00     0.00  std::filesystem::is_regular_file(std::filesystem::file_status)
+  0.00      0.00     0.00        1     0.00     0.00  std::filesystem::is_regular_file(std::filesystem::__cxx11::path const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::filesystem::__cxx11::recursive_directory_iterator::recursive_directory_iterator(std::filesystem::__cxx11::recursive_directory_iterator&&)
+  0.00      0.00     0.00        1     0.00     0.00  std::filesystem::__cxx11::recursive_directory_iterator::recursive_directory_iterator(std::filesystem::__cxx11::recursive_directory_iterator const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::filesystem::__cxx11::recursive_directory_iterator::recursive_directory_iterator()
+  0.00      0.00     0.00        1     0.00     0.00  std::filesystem::__cxx11::end(std::filesystem::__cxx11::recursive_directory_iterator)
+  0.00      0.00     0.00        1     0.00     0.00  std::filesystem::__cxx11::begin(std::filesystem::__cxx11::recursive_directory_iterator)
+  0.00      0.00     0.00        1     0.00     0.00  std::filesystem::__cxx11::operator!=(std::filesystem::__cxx11::recursive_directory_iterator const&, std::filesystem::__cxx11::recursive_directory_iterator const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::__shared_ptr<std::filesystem::__cxx11::recursive_directory_iterator::_Dir_stack, (__gnu_cxx::_Lock_policy)2>::__shared_ptr(std::__shared_ptr<std::filesystem::__cxx11::recursive_directory_iterator::_Dir_stack, (__gnu_cxx::_Lock_policy)2> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::__shared_ptr<std::filesystem::__cxx11::_Dir, (__gnu_cxx::_Lock_policy)2>::__shared_ptr(std::__shared_ptr<std::filesystem::__cxx11::_Dir, (__gnu_cxx::_Lock_policy)2> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::__uniq_ptr_impl<std::filesystem::__cxx11::path::_List::_Impl, std::filesystem::__cxx11::path::_List::_Impl_deleter>::_M_ptr()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()
+  0.00      0.00     0.00        1     0.00     0.00  std::mutex::lock()
+  0.00      0.00     0.00        1     0.00     0.00  std::operator&(std::memory_order, std::__memory_order_modifier)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) no time propagated
+
+index % time    self  children    called     name
+                                3113             std::basic_ostream<char, std::char_traits<char> >& std::__detail::operator<< <char, std::char_traits<char>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::basic_ostream<char, std::char_traits<char> >&, std::__detail::_Quoted_string<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char> const&) [6]
+                0.00    0.00       2/9341        std::basic_ostream<char, std::char_traits<char> >& std::filesystem::__cxx11::operator<< <char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::filesystem::__cxx11::path const&) [29]
+                0.00    0.00    3113/9341        std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream<std::filesystem::__cxx11::path, std::filesystem::__cxx11::path>(std::filesystem::__cxx11::path const&, std::_Ios_Openmode) [10]
+                0.00    0.00    6226/9341        auto std::quoted<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char, char) [44]
+[6]      0.0    0.00    0.00    9341+3113    std::basic_ostream<char, std::char_traits<char> >& std::__detail::operator<< <char, std::char_traits<char>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::basic_ostream<char, std::char_traits<char> >&, std::__detail::_Quoted_string<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char> const&) [6]
+                0.00    0.00    6226/7295        _fini [7]
+                                3113             std::basic_ostream<char, std::char_traits<char> >& std::__detail::operator<< <char, std::char_traits<char>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::basic_ostream<char, std::char_traits<char> >&, std::__detail::_Quoted_string<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char> const&) [6]
+-----------------------------------------------
+                               18682             _fini [7]
+                0.00    0.00       1/7295        std::__uniq_ptr_impl<std::filesystem::__cxx11::path::_List::_Impl, std::filesystem::__cxx11::path::_List::_Impl_deleter>::_M_deleter() [97]
+                0.00    0.00       1/7295        std::__shared_count<(__gnu_cxx::_Lock_policy)2>::_M_less(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&) const [75]
+                0.00    0.00    1067/7295        std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_add_ref_copy() [14]
+                0.00    0.00    6226/7295        std::basic_ostream<char, std::char_traits<char> >& std::__detail::operator<< <char, std::char_traits<char>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::basic_ostream<char, std::char_traits<char> >&, std::__detail::_Quoted_string<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char> const&) [6]
+[7]      0.0    0.00    0.00    7295+18682   _fini [7]
+                0.00    0.00       2/8           std::filesystem::__cxx11::path::path(std::filesystem::__cxx11::path const&) [34]
+                               18682             _fini [7]
+-----------------------------------------------
+                0.00    0.00       2/3113        copy_files(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [45]
+                0.00    0.00     717/3113        copy_directory_for(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [46]
+                0.00    0.00    2394/3113        copy_directory_recursive(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [47]
+[8]      0.0    0.00    0.00    3113         std::filesystem::__cxx11::path::path<char [35], std::filesystem::__cxx11::path>(char const (&) [35], std::filesystem::__cxx11::path::format) [8]
+                0.00    0.00    1037/1040        __gnu_cxx::char_traits<char>::length(char const*) [18]
+                0.00    0.00    1037/1039        std::unique_ptr<std::filesystem::__cxx11::path::_List::_Impl, std::filesystem::__cxx11::path::_List::_Impl_deleter>::~unique_ptr() [19]
+                0.00    0.00       4/4           std::filesystem::__cxx11::path::_List::_Impl*& std::__get_helper<0ul, std::filesystem::__cxx11::path::_List::_Impl*, std::filesystem::__cxx11::path::_List::_Impl_deleter>(std::_Tuple_impl<0ul, std::filesystem::__cxx11::path::_List::_Impl*, std::filesystem::__cxx11::path::_List::_Impl_deleter>&) [38]
+                0.00    0.00       2/2           std::filesystem::__cxx11::path::_List::_Impl_deleter& std::__get_helper<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter>(std::_Tuple_impl<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter>&) [43]
+-----------------------------------------------
+                                3113             std::filesystem::__cxx11::operator/(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [9]
+                0.00    0.00       2/3113        __static_initialization_and_destruction_0(int, int) [64]
+                0.00    0.00     717/3113        copy_directory_for(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [46]
+                0.00    0.00    2394/3113        copy_directory_recursive(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [47]
+[9]      0.0    0.00    0.00    3113+3113    std::filesystem::__cxx11::operator/(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [9]
+                0.00    0.00    3113/3113        std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream<std::filesystem::__cxx11::path, std::filesystem::__cxx11::path>(std::filesystem::__cxx11::path const&, std::_Ios_Openmode) [10]
+                                3113             std::filesystem::__cxx11::operator/(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [9]
+-----------------------------------------------
+                0.00    0.00    3113/3113        std::filesystem::__cxx11::operator/(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [9]
+[10]     0.0    0.00    0.00    3113         std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream<std::filesystem::__cxx11::path, std::filesystem::__cxx11::path>(std::filesystem::__cxx11::path const&, std::_Ios_Openmode) [10]
+                0.00    0.00    3113/9341        std::basic_ostream<char, std::char_traits<char> >& std::__detail::operator<< <char, std::char_traits<char>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::basic_ostream<char, std::char_traits<char> >&, std::__detail::_Quoted_string<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char> const&) [6]
+-----------------------------------------------
+                0.00    0.00     239/3111        copy_directory_for(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [46]
+                0.00    0.00     798/3111        copy_directory_recursive(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [47]
+                0.00    0.00    1037/3111        std::filesystem::__cxx11::path::~path() [23]
+                0.00    0.00    1037/3111        std::filesystem::__cxx11::path::c_str() const [21]
+[11]     0.0    0.00    0.00    3111         my_copy_file(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [11]
+                0.00    0.00    1037/1037        std::lock_guard<std::mutex>::lock_guard(std::mutex&) [24]
+                0.00    0.00    1037/1037        std::__atomic_base<int>::operator++(int) [25]
+-----------------------------------------------
+                0.00    0.00       1/2103        std::__shared_ptr<std::filesystem::__cxx11::recursive_directory_iterator::_Dir_stack, (__gnu_cxx::_Lock_policy)2>::__shared_ptr(std::__shared_ptr<std::filesystem::__cxx11::recursive_directory_iterator::_Dir_stack, (__gnu_cxx::_Lock_policy)2> const&) [57]
+                0.00    0.00       1/2103        std::__shared_ptr<std::filesystem::__cxx11::_Dir, (__gnu_cxx::_Lock_policy)2>::__shared_ptr(std::__shared_ptr<std::filesystem::__cxx11::_Dir, (__gnu_cxx::_Lock_policy)2> const&) [58]
+                0.00    0.00       1/2103        __gnu_cxx::char_traits<char>::length(char const*) [18]
+                0.00    0.00     239/2103        copy_directory_for(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [46]
+                0.00    0.00     798/2103        copy_directory_recursive(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [47]
+                0.00    0.00    1063/2103        std::filesystem::__cxx11::directory_iterator::directory_iterator(std::filesystem::__cxx11::directory_iterator const&) [17]
+[12]     0.0    0.00    0.00    2103         std::filesystem::__cxx11::operator!=(std::filesystem::__cxx11::directory_iterator const&, std::filesystem::__cxx11::directory_iterator const&) [12]
+-----------------------------------------------
+                0.00    0.00    1037/2074        std::lock_guard<std::mutex>::lock_guard(std::mutex&) [24]
+                0.00    0.00    1037/2074        std::__atomic_base<int>::operator++(int) [25]
+[13]     0.0    0.00    0.00    2074         std::filesystem::file_status::type() const [13]
+-----------------------------------------------
+                0.00    0.00     248/1067        std::basic_ostream<char, std::char_traits<char> >& std::filesystem::__cxx11::operator<< <char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::filesystem::__cxx11::path const&) [29]
+                0.00    0.00     819/1067        std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&) [26]
+[14]     0.0    0.00    0.00    1067         std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_add_ref_copy() [14]
+                0.00    0.00    1067/7295        _fini [7]
+-----------------------------------------------
+                0.00    0.00     246/1063        copy_directory_for(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [46]
+                0.00    0.00     817/1063        copy_directory_recursive(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [47]
+[15]     0.0    0.00    0.00    1063         __gnu_cxx::char_traits<char>::eq(char const&, char const&) [15]
+                0.00    0.00    1063/1063        std::filesystem::__cxx11::directory_iterator::directory_iterator(std::filesystem::__cxx11::directory_iterator const&) [17]
+-----------------------------------------------
+                0.00    0.00     246/1063        copy_directory_for(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [46]
+                0.00    0.00     817/1063        copy_directory_recursive(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [47]
+[16]     0.0    0.00    0.00    1063         std::filesystem::__cxx11::directory_iterator::directory_iterator(std::filesystem::__cxx11::directory_iterator&&) [16]
+-----------------------------------------------
+                0.00    0.00    1063/1063        __gnu_cxx::char_traits<char>::eq(char const&, char const&) [15]
+[17]     0.0    0.00    0.00    1063         std::filesystem::__cxx11::directory_iterator::directory_iterator(std::filesystem::__cxx11::directory_iterator const&) [17]
+                0.00    0.00    1063/2103        std::filesystem::__cxx11::operator!=(std::filesystem::__cxx11::directory_iterator const&, std::filesystem::__cxx11::directory_iterator const&) [12]
+-----------------------------------------------
+                0.00    0.00       1/1040        std::__shared_ptr<std::filesystem::__cxx11::recursive_directory_iterator::_Dir_stack, (__gnu_cxx::_Lock_policy)2>::__shared_ptr(std::__shared_ptr<std::filesystem::__cxx11::recursive_directory_iterator::_Dir_stack, (__gnu_cxx::_Lock_policy)2> const&) [57]
+                0.00    0.00       2/1040        std::filesystem::__cxx11::path::path<char [40], std::filesystem::__cxx11::path>(char const (&) [40], std::filesystem::__cxx11::path::format) [33]
+                0.00    0.00    1037/1040        std::filesystem::__cxx11::path::path<char [35], std::filesystem::__cxx11::path>(char const (&) [35], std::filesystem::__cxx11::path::format) [8]
+[18]     0.0    0.00    0.00    1040         __gnu_cxx::char_traits<char>::length(char const*) [18]
+                0.00    0.00       1/2103        std::filesystem::__cxx11::operator!=(std::filesystem::__cxx11::directory_iterator const&, std::filesystem::__cxx11::directory_iterator const&) [12]
+-----------------------------------------------
+                0.00    0.00       2/1039        std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::filesystem::__cxx11::path::string<char, std::char_traits<char>, std::allocator<char> >(std::allocator<char> const&) const [35]
+                0.00    0.00    1037/1039        std::filesystem::__cxx11::path::path<char [35], std::filesystem::__cxx11::path>(char const (&) [35], std::filesystem::__cxx11::path::format) [8]
+[19]     0.0    0.00    0.00    1039         std::unique_ptr<std::filesystem::__cxx11::path::_List::_Impl, std::filesystem::__cxx11::path::_List::_Impl_deleter>::~unique_ptr() [19]
+                0.00    0.00    1037/1037        std::filesystem::__cxx11::path::~path() [23]
+                0.00    0.00    1037/1037        std::filesystem::__cxx11::path::c_str() const [21]
+-----------------------------------------------
+                0.00    0.00    1037/1037        std::filesystem::__cxx11::directory_iterator::directory_iterator(std::filesystem::__cxx11::path const&) [22]
+[20]     0.0    0.00    0.00    1037         std::filesystem::__cxx11::directory_entry::operator std::filesystem::__cxx11::path const&() const [20]
+-----------------------------------------------
+                0.00    0.00    1037/1037        std::unique_ptr<std::filesystem::__cxx11::path::_List::_Impl, std::filesystem::__cxx11::path::_List::_Impl_deleter>::~unique_ptr() [19]
+[21]     0.0    0.00    0.00    1037         std::filesystem::__cxx11::path::c_str() const [21]
+                0.00    0.00    1037/3111        my_copy_file(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [11]
+-----------------------------------------------
+                0.00    0.00     239/1037        copy_directory_for(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [46]
+                0.00    0.00     798/1037        copy_directory_recursive(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [47]
+[22]     0.0    0.00    0.00    1037         std::filesystem::__cxx11::directory_iterator::directory_iterator(std::filesystem::__cxx11::path const&) [22]
+                0.00    0.00    1037/1037        std::filesystem::__cxx11::directory_entry::operator std::filesystem::__cxx11::path const&() const [20]
+-----------------------------------------------
+                0.00    0.00    1037/1037        std::unique_ptr<std::filesystem::__cxx11::path::_List::_Impl, std::filesystem::__cxx11::path::_List::_Impl_deleter>::~unique_ptr() [19]
+[23]     0.0    0.00    0.00    1037         std::filesystem::__cxx11::path::~path() [23]
+                0.00    0.00    1037/3111        my_copy_file(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [11]
+-----------------------------------------------
+                0.00    0.00    1037/1037        my_copy_file(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [11]
+[24]     0.0    0.00    0.00    1037         std::lock_guard<std::mutex>::lock_guard(std::mutex&) [24]
+                0.00    0.00    1037/2074        std::filesystem::file_status::type() const [13]
+-----------------------------------------------
+                0.00    0.00    1037/1037        my_copy_file(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [11]
+[25]     0.0    0.00    0.00    1037         std::__atomic_base<int>::operator++(int) [25]
+                0.00    0.00    1037/2074        std::filesystem::file_status::type() const [13]
+-----------------------------------------------
+                0.00    0.00       1/819         std::filesystem::exists(std::filesystem::__cxx11::path const&) [83]
+                0.00    0.00     818/819         std::filesystem::exists(std::filesystem::file_status) [28]
+[26]     0.0    0.00    0.00     819         std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&) [26]
+                0.00    0.00     819/1067        std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_add_ref_copy() [14]
+-----------------------------------------------
+                0.00    0.00     818/818         copy_directory_recursive(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [47]
+[27]     0.0    0.00    0.00     818         std::filesystem::is_directory(std::filesystem::file_status) [27]
+-----------------------------------------------
+                0.00    0.00     818/818         std::filesystem::is_directory(std::filesystem::__cxx11::path const&) [81]
+[28]     0.0    0.00    0.00     818         std::filesystem::exists(std::filesystem::file_status) [28]
+                0.00    0.00     818/819         std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&) [26]
+-----------------------------------------------
+                0.00    0.00       1/253         std::filesystem::__cxx11::operator==(std::filesystem::__cxx11::recursive_directory_iterator const&, std::filesystem::__cxx11::recursive_directory_iterator const&) [31]
+                0.00    0.00       5/253         std::filesystem::__cxx11::begin(std::filesystem::__cxx11::directory_iterator) [32]
+                0.00    0.00     247/253         std::filesystem::__cxx11::recursive_directory_iterator::recursive_directory_iterator(std::filesystem::__cxx11::path const&) [86]
+[29]     0.0    0.00    0.00     253         std::basic_ostream<char, std::char_traits<char> >& std::filesystem::__cxx11::operator<< <char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::filesystem::__cxx11::path const&) [29]
+                0.00    0.00     248/1067        std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_add_ref_copy() [14]
+                0.00    0.00       2/9341        std::basic_ostream<char, std::char_traits<char> >& std::__detail::operator<< <char, std::char_traits<char>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::basic_ostream<char, std::char_traits<char> >&, std::__detail::_Quoted_string<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char> const&) [6]
+-----------------------------------------------
+                0.00    0.00       1/248         copy_directory_for(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [46]
+                0.00    0.00     247/248         std::filesystem::__cxx11::operator==(std::filesystem::__cxx11::recursive_directory_iterator const&, std::filesystem::__cxx11::recursive_directory_iterator const&) [31]
+[30]     0.0    0.00    0.00     248         std::filesystem::__cxx11::end(std::filesystem::__cxx11::directory_iterator) [30]
+-----------------------------------------------
+                0.00    0.00     247/247         copy_directory_for(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [46]
+[31]     0.0    0.00    0.00     247         std::filesystem::__cxx11::operator==(std::filesystem::__cxx11::recursive_directory_iterator const&, std::filesystem::__cxx11::recursive_directory_iterator const&) [31]
+                0.00    0.00     247/248         std::filesystem::__cxx11::end(std::filesystem::__cxx11::directory_iterator) [30]
+                0.00    0.00       1/253         std::basic_ostream<char, std::char_traits<char> >& std::filesystem::__cxx11::operator<< <char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::filesystem::__cxx11::path const&) [29]
+-----------------------------------------------
+                0.00    0.00       5/10          copy_directory_for(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [46]
+                0.00    0.00       5/10          std::filesystem::__cxx11::directory_iterator::directory_iterator() [84]
+[32]     0.0    0.00    0.00      10         std::filesystem::__cxx11::begin(std::filesystem::__cxx11::directory_iterator) [32]
+                0.00    0.00       5/253         std::basic_ostream<char, std::char_traits<char> >& std::filesystem::__cxx11::operator<< <char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::filesystem::__cxx11::path const&) [29]
+-----------------------------------------------
+                0.00    0.00       1/9           main [4]
+                0.00    0.00       1/9           std::unique_ptr<std::filesystem::__cxx11::path::_List::_Impl, std::filesystem::__cxx11::path::_List::_Impl_deleter>::get_deleter() [91]
+                0.00    0.00       1/9           std::remove_reference<std::filesystem::__cxx11::path::_List::_Impl*&>::type&& std::move<std::filesystem::__cxx11::path::_List::_Impl*&>(std::filesystem::__cxx11::path::_List::_Impl*&) [109]
+                0.00    0.00       1/9           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::_M_less(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&) const [75]
+                0.00    0.00       2/9           auto std::filesystem::__cxx11::__detail::__effective_range<char [40]>(char const (&) [40]) [40]
+                0.00    0.00       3/9           copy_files(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [45]
+[33]     0.0    0.00    0.00       9         std::filesystem::__cxx11::path::path<char [40], std::filesystem::__cxx11::path>(char const (&) [40], std::filesystem::__cxx11::path::format) [33]
+                0.00    0.00       2/1040        __gnu_cxx::char_traits<char>::length(char const*) [18]
+                0.00    0.00       1/2           auto std::quoted<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char, char) [44]
+-----------------------------------------------
+                0.00    0.00       2/8           std::chrono::duration<double, std::ratio<1l, 1l> >::duration<double, void>(double const&) [102]
+                0.00    0.00       2/8           std::_Tuple_impl<0ul, std::filesystem::__cxx11::path::_List::_Impl*, std::filesystem::__cxx11::path::_List::_Impl_deleter>::_M_head(std::_Tuple_impl<0ul, std::filesystem::__cxx11::path::_List::_Impl*, std::filesystem::__cxx11::path::_List::_Impl_deleter>&) [92]
+                0.00    0.00       2/8           std::_Tuple_impl<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter>::_M_head(std::_Tuple_impl<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter>&) [93]
+                0.00    0.00       2/8           _fini [7]
+[34]     0.0    0.00    0.00       8         std::filesystem::__cxx11::path::path(std::filesystem::__cxx11::path const&) [34]
+-----------------------------------------------
+                0.00    0.00       2/4           copy_directory_recursive(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [47]
+                0.00    0.00       2/4           bool std::__shared_ptr<std::filesystem::__cxx11::_Dir, (__gnu_cxx::_Lock_policy)2>::owner_before<std::filesystem::__cxx11::_Dir>(std::__shared_ptr<std::filesystem::__cxx11::_Dir, (__gnu_cxx::_Lock_policy)2> const&) const [73]
+[35]     0.0    0.00    0.00       4         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::filesystem::__cxx11::path::string<char, std::char_traits<char>, std::allocator<char> >(std::allocator<char> const&) const [35]
+                0.00    0.00       2/1039        std::unique_ptr<std::filesystem::__cxx11::path::_List::_Impl, std::filesystem::__cxx11::path::_List::_Impl_deleter>::~unique_ptr() [19]
+-----------------------------------------------
+                0.00    0.00       2/4           std::basic_string_view<char, std::char_traits<char> >::basic_string_view(char const*) [98]
+                0.00    0.00       2/4           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count() [41]
+[36]     0.0    0.00    0.00       4         auto std::filesystem::__cxx11::__detail::__effective_range<char [35]>(char const (&) [35]) [36]
+                0.00    0.00       4/4           std::chrono::duration<double, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [37]
+-----------------------------------------------
+                0.00    0.00       4/4           auto std::filesystem::__cxx11::__detail::__effective_range<char [35]>(char const (&) [35]) [36]
+[37]     0.0    0.00    0.00       4         std::chrono::duration<double, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [37]
+-----------------------------------------------
+                0.00    0.00       4/4           std::filesystem::__cxx11::path::path<char [35], std::filesystem::__cxx11::path>(char const (&) [35], std::filesystem::__cxx11::path::format) [8]
+[38]     0.0    0.00    0.00       4         std::filesystem::__cxx11::path::_List::_Impl*& std::__get_helper<0ul, std::filesystem::__cxx11::path::_List::_Impl*, std::filesystem::__cxx11::path::_List::_Impl_deleter>(std::_Tuple_impl<0ul, std::filesystem::__cxx11::path::_List::_Impl*, std::filesystem::__cxx11::path::_List::_Impl_deleter>&) [38]
+-----------------------------------------------
+                0.00    0.00       2/2           auto std::filesystem::__cxx11::__detail::__effective_range<char [40]>(char const (&) [40]) [40]
+[39]     0.0    0.00    0.00       2         std::_Head_base<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter, true>::_M_head(std::_Head_base<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter, true>&) [39]
+-----------------------------------------------
+                0.00    0.00       2/2           copy_files(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [45]
+[40]     0.0    0.00    0.00       2         auto std::filesystem::__cxx11::__detail::__effective_range<char [40]>(char const (&) [40]) [40]
+                0.00    0.00       2/2           std::_Head_base<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter, true>::_M_head(std::_Head_base<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter, true>&) [39]
+                0.00    0.00       2/9           std::filesystem::__cxx11::path::path<char [40], std::filesystem::__cxx11::path>(char const (&) [40], std::filesystem::__cxx11::path::format) [33]
+-----------------------------------------------
+                0.00    0.00       2/2           copy_directory_for(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [46]
+[41]     0.0    0.00    0.00       2         std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count() [41]
+                0.00    0.00       2/4           auto std::filesystem::__cxx11::__detail::__effective_range<char [35]>(char const (&) [35]) [36]
+-----------------------------------------------
+                0.00    0.00       2/2           auto std::quoted<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char, char) [44]
+[42]     0.0    0.00    0.00       2         std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&) [42]
+-----------------------------------------------
+                0.00    0.00       2/2           std::filesystem::__cxx11::path::path<char [35], std::filesystem::__cxx11::path>(char const (&) [35], std::filesystem::__cxx11::path::format) [8]
+[43]     0.0    0.00    0.00       2         std::filesystem::__cxx11::path::_List::_Impl_deleter& std::__get_helper<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter>(std::_Tuple_impl<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter>&) [43]
+-----------------------------------------------
+                0.00    0.00       1/2           std::filesystem::__cxx11::path::path<char [40], std::filesystem::__cxx11::path>(char const (&) [40], std::filesystem::__cxx11::path::format) [33]
+                0.00    0.00       1/2           std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [60]
+[44]     0.0    0.00    0.00       2         auto std::quoted<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char, char) [44]
+                0.00    0.00    6226/9341        std::basic_ostream<char, std::char_traits<char> >& std::__detail::operator<< <char, std::char_traits<char>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::basic_ostream<char, std::char_traits<char> >&, std::__detail::_Quoted_string<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char> const&) [6]
+                0.00    0.00       2/2           std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&) [42]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [64]
+[45]     0.0    0.00    0.00       1         copy_files(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [45]
+                0.00    0.00       3/9           std::filesystem::__cxx11::path::path<char [40], std::filesystem::__cxx11::path>(char const (&) [40], std::filesystem::__cxx11::path::format) [33]
+                0.00    0.00       2/3113        std::filesystem::__cxx11::path::path<char [35], std::filesystem::__cxx11::path>(char const (&) [35], std::filesystem::__cxx11::path::format) [8]
+                0.00    0.00       2/2           auto std::filesystem::__cxx11::__detail::__effective_range<char [40]>(char const (&) [40]) [40]
+                0.00    0.00       1/1           std::filesystem::__cxx11::recursive_directory_iterator::recursive_directory_iterator(std::filesystem::__cxx11::recursive_directory_iterator const&) [52]
+                0.00    0.00       1/1           std::__shared_ptr<std::filesystem::__cxx11::_Dir, (__gnu_cxx::_Lock_policy)2>::__shared_ptr(std::__shared_ptr<std::filesystem::__cxx11::_Dir, (__gnu_cxx::_Lock_policy)2> const&) [58]
+                0.00    0.00       1/1           copy_directory_recursive(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [47]
+                0.00    0.00       1/1           copy_directory_for(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [46]
+-----------------------------------------------
+                0.00    0.00       1/1           copy_files(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [45]
+[46]     0.0    0.00    0.00       1         copy_directory_for(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [46]
+                0.00    0.00     717/3113        std::filesystem::__cxx11::operator/(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [9]
+                0.00    0.00     717/3113        std::filesystem::__cxx11::path::path<char [35], std::filesystem::__cxx11::path>(char const (&) [35], std::filesystem::__cxx11::path::format) [8]
+                0.00    0.00     247/247         std::filesystem::__cxx11::operator==(std::filesystem::__cxx11::recursive_directory_iterator const&, std::filesystem::__cxx11::recursive_directory_iterator const&) [31]
+                0.00    0.00     246/1063        __gnu_cxx::char_traits<char>::eq(char const&, char const&) [15]
+                0.00    0.00     246/1063        std::filesystem::__cxx11::directory_iterator::directory_iterator(std::filesystem::__cxx11::directory_iterator&&) [16]
+                0.00    0.00     239/2103        std::filesystem::__cxx11::operator!=(std::filesystem::__cxx11::directory_iterator const&, std::filesystem::__cxx11::directory_iterator const&) [12]
+                0.00    0.00     239/1037        std::filesystem::__cxx11::directory_iterator::directory_iterator(std::filesystem::__cxx11::path const&) [22]
+                0.00    0.00     239/3111        my_copy_file(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [11]
+                0.00    0.00       5/10          std::filesystem::__cxx11::begin(std::filesystem::__cxx11::directory_iterator) [32]
+                0.00    0.00       2/2           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count() [41]
+                0.00    0.00       1/248         std::filesystem::__cxx11::end(std::filesystem::__cxx11::directory_iterator) [30]
+                0.00    0.00       1/1           std::filesystem::__cxx11::recursive_directory_iterator::recursive_directory_iterator(std::filesystem::__cxx11::recursive_directory_iterator&&) [51]
+                0.00    0.00       1/1           std::filesystem::__cxx11::recursive_directory_iterator::recursive_directory_iterator() [53]
+-----------------------------------------------
+                0.00    0.00       1/1           copy_files(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [45]
+[47]     0.0    0.00    0.00       1         copy_directory_recursive(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [47]
+                0.00    0.00    2394/3113        std::filesystem::__cxx11::operator/(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [9]
+                0.00    0.00    2394/3113        std::filesystem::__cxx11::path::path<char [35], std::filesystem::__cxx11::path>(char const (&) [35], std::filesystem::__cxx11::path::format) [8]
+                0.00    0.00     818/818         std::filesystem::is_directory(std::filesystem::file_status) [27]
+                0.00    0.00     817/1063        std::filesystem::__cxx11::directory_iterator::directory_iterator(std::filesystem::__cxx11::directory_iterator&&) [16]
+                0.00    0.00     817/1063        __gnu_cxx::char_traits<char>::eq(char const&, char const&) [15]
+                0.00    0.00     798/2103        std::filesystem::__cxx11::operator!=(std::filesystem::__cxx11::directory_iterator const&, std::filesystem::__cxx11::directory_iterator const&) [12]
+                0.00    0.00     798/1037        std::filesystem::__cxx11::directory_iterator::directory_iterator(std::filesystem::__cxx11::path const&) [22]
+                0.00    0.00     798/3111        my_copy_file(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [11]
+                0.00    0.00       2/4           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::filesystem::__cxx11::path::string<char, std::char_traits<char>, std::allocator<char> >(std::allocator<char> const&) const [35]
+                0.00    0.00       1/1           std::filesystem::__cxx11::end(std::filesystem::__cxx11::recursive_directory_iterator) [54]
+                0.00    0.00       1/1           std::filesystem::is_regular_file(std::filesystem::__cxx11::path const&) [50]
+                0.00    0.00       1/1           std::mutex::lock() [61]
+-----------------------------------------------
+                0.00    0.00       1/1           std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [79]
+[48]     0.0    0.00    0.00       1         __gthread_mutex_lock(pthread_mutex_t*) [48]
+-----------------------------------------------
+                0.00    0.00       1/1           std::filesystem::status_known(std::filesystem::file_status) [82]
+[49]     0.0    0.00    0.00       1         std::filesystem::is_regular_file(std::filesystem::file_status) [49]
+-----------------------------------------------
+                0.00    0.00       1/1           copy_directory_recursive(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [47]
+[50]     0.0    0.00    0.00       1         std::filesystem::is_regular_file(std::filesystem::__cxx11::path const&) [50]
+-----------------------------------------------
+                0.00    0.00       1/1           copy_directory_for(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [46]
+[51]     0.0    0.00    0.00       1         std::filesystem::__cxx11::recursive_directory_iterator::recursive_directory_iterator(std::filesystem::__cxx11::recursive_directory_iterator&&) [51]
+                0.00    0.00       1/1           std::filesystem::__cxx11::operator!=(std::filesystem::__cxx11::recursive_directory_iterator const&, std::filesystem::__cxx11::recursive_directory_iterator const&) [56]
+-----------------------------------------------
+                0.00    0.00       1/1           copy_files(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [45]
+[52]     0.0    0.00    0.00       1         std::filesystem::__cxx11::recursive_directory_iterator::recursive_directory_iterator(std::filesystem::__cxx11::recursive_directory_iterator const&) [52]
+                0.00    0.00       1/1           std::__shared_ptr<std::filesystem::__cxx11::recursive_directory_iterator::_Dir_stack, (__gnu_cxx::_Lock_policy)2>::__shared_ptr(std::__shared_ptr<std::filesystem::__cxx11::recursive_directory_iterator::_Dir_stack, (__gnu_cxx::_Lock_policy)2> const&) [57]
+-----------------------------------------------
+                0.00    0.00       1/1           copy_directory_for(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [46]
+[53]     0.0    0.00    0.00       1         std::filesystem::__cxx11::recursive_directory_iterator::recursive_directory_iterator() [53]
+-----------------------------------------------
+                0.00    0.00       1/1           copy_directory_recursive(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [47]
+[54]     0.0    0.00    0.00       1         std::filesystem::__cxx11::end(std::filesystem::__cxx11::recursive_directory_iterator) [54]
+                0.00    0.00       1/1           std::filesystem::__cxx11::begin(std::filesystem::__cxx11::recursive_directory_iterator) [55]
+-----------------------------------------------
+                0.00    0.00       1/1           std::filesystem::__cxx11::end(std::filesystem::__cxx11::recursive_directory_iterator) [54]
+[55]     0.0    0.00    0.00       1         std::filesystem::__cxx11::begin(std::filesystem::__cxx11::recursive_directory_iterator) [55]
+-----------------------------------------------
+                0.00    0.00       1/1           std::filesystem::__cxx11::recursive_directory_iterator::recursive_directory_iterator(std::filesystem::__cxx11::recursive_directory_iterator&&) [51]
+[56]     0.0    0.00    0.00       1         std::filesystem::__cxx11::operator!=(std::filesystem::__cxx11::recursive_directory_iterator const&, std::filesystem::__cxx11::recursive_directory_iterator const&) [56]
+-----------------------------------------------
+                0.00    0.00       1/1           std::filesystem::__cxx11::recursive_directory_iterator::recursive_directory_iterator(std::filesystem::__cxx11::recursive_directory_iterator const&) [52]
+[57]     0.0    0.00    0.00       1         std::__shared_ptr<std::filesystem::__cxx11::recursive_directory_iterator::_Dir_stack, (__gnu_cxx::_Lock_policy)2>::__shared_ptr(std::__shared_ptr<std::filesystem::__cxx11::recursive_directory_iterator::_Dir_stack, (__gnu_cxx::_Lock_policy)2> const&) [57]
+                0.00    0.00       1/1040        __gnu_cxx::char_traits<char>::length(char const*) [18]
+                0.00    0.00       1/2103        std::filesystem::__cxx11::operator!=(std::filesystem::__cxx11::directory_iterator const&, std::filesystem::__cxx11::directory_iterator const&) [12]
+-----------------------------------------------
+                                   1             std::__shared_ptr<std::filesystem::__cxx11::_Dir, (__gnu_cxx::_Lock_policy)2>::__shared_ptr(std::__shared_ptr<std::filesystem::__cxx11::_Dir, (__gnu_cxx::_Lock_policy)2> const&) [58]
+                0.00    0.00       1/1           copy_files(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [45]
+[58]     0.0    0.00    0.00       1+1       std::__shared_ptr<std::filesystem::__cxx11::_Dir, (__gnu_cxx::_Lock_policy)2>::__shared_ptr(std::__shared_ptr<std::filesystem::__cxx11::_Dir, (__gnu_cxx::_Lock_policy)2> const&) [58]
+                0.00    0.00       1/2103        std::filesystem::__cxx11::operator!=(std::filesystem::__cxx11::directory_iterator const&, std::filesystem::__cxx11::directory_iterator const&) [12]
+                                   1             std::__shared_ptr<std::filesystem::__cxx11::_Dir, (__gnu_cxx::_Lock_policy)2>::__shared_ptr(std::__shared_ptr<std::filesystem::__cxx11::_Dir, (__gnu_cxx::_Lock_policy)2> const&) [58]
+-----------------------------------------------
+                0.00    0.00       1/1           main [4]
+[59]     0.0    0.00    0.00       1         std::__uniq_ptr_impl<std::filesystem::__cxx11::path::_List::_Impl, std::filesystem::__cxx11::path::_List::_Impl_deleter>::_M_ptr() [59]
+-----------------------------------------------
+                                   1             std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [60]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [64]
+[60]     0.0    0.00    0.00       1+1       std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [60]
+                0.00    0.00       1/2           auto std::quoted<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char, char) [44]
+                                   1             std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [60]
+-----------------------------------------------
+                0.00    0.00       1/1           copy_directory_recursive(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [47]
+[61]     0.0    0.00    0.00       1         std::mutex::lock() [61]
+-----------------------------------------------
+                0.00    0.00       1/1           std::mutex::unlock() [99]
+[62]     0.0    0.00    0.00       1         std::operator&(std::memory_order, std::__memory_order_modifier) [62]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [45] copy_files(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [51] std::filesystem::__cxx11::recursive_directory_iterator::recursive_directory_iterator(std::filesystem::__cxx11::recursive_directory_iterator&&) [19] std::unique_ptr<std::filesystem::__cxx11::path::_List::_Impl, std::filesystem::__cxx11::path::_List::_Impl_deleter>::~unique_ptr()
+  [11] my_copy_file(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [52] std::filesystem::__cxx11::recursive_directory_iterator::recursive_directory_iterator(std::filesystem::__cxx11::recursive_directory_iterator const&) [57] std::__shared_ptr<std::filesystem::__cxx11::recursive_directory_iterator::_Dir_stack, (__gnu_cxx::_Lock_policy)2>::__shared_ptr(std::__shared_ptr<std::filesystem::__cxx11::recursive_directory_iterator::_Dir_stack, (__gnu_cxx::_Lock_policy)2> const&)
+  [46] copy_directory_for(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [53] std::filesystem::__cxx11::recursive_directory_iterator::recursive_directory_iterator() [58] std::__shared_ptr<std::filesystem::__cxx11::_Dir, (__gnu_cxx::_Lock_policy)2>::__shared_ptr(std::__shared_ptr<std::filesystem::__cxx11::_Dir, (__gnu_cxx::_Lock_policy)2> const&)
+  [47] copy_directory_recursive(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&, std::atomic<int>&, std::mutex&) [30] std::filesystem::__cxx11::end(std::filesystem::__cxx11::directory_iterator) [25] std::__atomic_base<int>::operator++(int)
+  [48] __gthread_mutex_lock(pthread_mutex_t*) [54] std::filesystem::__cxx11::end(std::filesystem::__cxx11::recursive_directory_iterator) [26] std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&)
+  [15] __gnu_cxx::char_traits<char>::eq(char const&, char const&) [34] std::filesystem::__cxx11::path::path(std::filesystem::__cxx11::path const&) [41] std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count()
+  [18] __gnu_cxx::char_traits<char>::length(char const*) [8] std::filesystem::__cxx11::path::path<char [35], std::filesystem::__cxx11::path>(char const (&) [35], std::filesystem::__cxx11::path::format) [10] std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream<std::filesystem::__cxx11::path, std::filesystem::__cxx11::path>(std::filesystem::__cxx11::path const&, std::_Ios_Openmode)
+  [13] std::filesystem::file_status::type() const [33] std::filesystem::__cxx11::path::path<char [40], std::filesystem::__cxx11::path>(char const (&) [40], std::filesystem::__cxx11::path::format) [59] std::__uniq_ptr_impl<std::filesystem::__cxx11::path::_List::_Impl, std::filesystem::__cxx11::path::_List::_Impl_deleter>::_M_ptr()
+  [20] std::filesystem::__cxx11::directory_entry::operator std::filesystem::__cxx11::path const&() const [23] std::filesystem::__cxx11::path::~path() [60] std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()
+  [21] std::filesystem::__cxx11::path::c_str() const [32] std::filesystem::__cxx11::begin(std::filesystem::__cxx11::directory_iterator) [14] std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_add_ref_copy()
+  [35] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::filesystem::__cxx11::path::string<char, std::char_traits<char>, std::allocator<char> >(std::allocator<char> const&) const [55] std::filesystem::__cxx11::begin(std::filesystem::__cxx11::recursive_directory_iterator) [61] std::mutex::lock()
+  [39] std::_Head_base<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter, true>::_M_head(std::_Head_base<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter, true>&) [36] auto std::filesystem::__cxx11::__detail::__effective_range<char [35]>(char const (&) [35]) [37] std::chrono::duration<double, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  [27] std::filesystem::is_directory(std::filesystem::file_status) [40] auto std::filesystem::__cxx11::__detail::__effective_range<char [40]>(char const (&) [40]) [42] std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&)
+  [49] std::filesystem::is_regular_file(std::filesystem::file_status) [9] std::filesystem::__cxx11::operator/(std::filesystem::__cxx11::path const&, std::filesystem::__cxx11::path const&) [6] std::basic_ostream<char, std::char_traits<char> >& std::__detail::operator<< <char, std::char_traits<char>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::basic_ostream<char, std::char_traits<char> >&, std::__detail::_Quoted_string<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char> const&)
+  [50] std::filesystem::is_regular_file(std::filesystem::__cxx11::path const&) [31] std::filesystem::__cxx11::operator==(std::filesystem::__cxx11::recursive_directory_iterator const&, std::filesystem::__cxx11::recursive_directory_iterator const&) [38] std::filesystem::__cxx11::path::_List::_Impl*& std::__get_helper<0ul, std::filesystem::__cxx11::path::_List::_Impl*, std::filesystem::__cxx11::path::_List::_Impl_deleter>(std::_Tuple_impl<0ul, std::filesystem::__cxx11::path::_List::_Impl*, std::filesystem::__cxx11::path::_List::_Impl_deleter>&)
+  [28] std::filesystem::exists(std::filesystem::file_status) [29] std::basic_ostream<char, std::char_traits<char> >& std::filesystem::__cxx11::operator<< <char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::filesystem::__cxx11::path const&) [43] std::filesystem::__cxx11::path::_List::_Impl_deleter& std::__get_helper<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter>(std::_Tuple_impl<1ul, std::filesystem::__cxx11::path::_List::_Impl_deleter>&)
+  [16] std::filesystem::__cxx11::directory_iterator::directory_iterator(std::filesystem::__cxx11::directory_iterator&&) [12] std::filesystem::__cxx11::operator!=(std::filesystem::__cxx11::directory_iterator const&, std::filesystem::__cxx11::directory_iterator const&) [44] auto std::quoted<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char, char)
+  [22] std::filesystem::__cxx11::directory_iterator::directory_iterator(std::filesystem::__cxx11::path const&) [56] std::filesystem::__cxx11::operator!=(std::filesystem::__cxx11::recursive_directory_iterator const&, std::filesystem::__cxx11::recursive_directory_iterator const&) [62] std::operator&(std::memory_order, std::__memory_order_modifier)
+  [17] std::filesystem::__cxx11::directory_iterator::directory_iterator(std::filesystem::__cxx11::directory_iterator const&) [24] std::lock_guard<std::mutex>::lock_guard(std::mutex&) [7] _fini
